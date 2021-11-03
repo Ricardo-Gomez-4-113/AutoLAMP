@@ -22,17 +22,13 @@ Si descargamos el script de la web, solo debemos descomprimir el zip y mover la 
 Abrimos una terminal y nos ubicamos en dicho directorio:
 
 ```
-
 cd AutoDoc
-
 ```
 
 Ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos necesarios:
 
 ```
-
 sudo ./Docker.sh
-
 ```
 Una vez nos que salga algo como lo siguiente:
 
@@ -41,9 +37,7 @@ Una vez nos que salga algo como lo siguiente:
 Ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que hayamos seleccionado en la web):
 
 ```
-
 sudo ./script2
-
 ```
 Este script nos pedirá la información necesaria para la configuración de nuestra base de datos.
 
@@ -52,22 +46,17 @@ Este script nos pedirá la información necesaria para la configuración de nues
 Para hacer uso de los scripts primero abrimos una terminal y clonamos el repositorio:
 
 ```
-
 git clone https://github.com/Ricardo-Gomez-4-113/AutoDoc.git
-
 ```
 Una vez clonado el repositorio, nos desplazamos al directorio de trabajo
-```
 
+```
 cd AutoDoc
+```
+Dentro del directorio ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos requeridos:
 
 ```
-Dentro del directorio ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos necesarios:
-
-```
-
 sudo ./Docker.sh
-
 ```
 Una vez nos que salga algo como lo siguiente:
 
@@ -76,11 +65,25 @@ Una vez nos que salga algo como lo siguiente:
 Ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que necesitemos, por el momento solo se puede de 2 a 4 variables):
 
 ```
-
 sudo ./script2
-
 ```
 Este script nos pedirá la información necesaria para la configuración de nuestra base de datos.
+
+### Aclaraciones 
+
+Es necesario saber que dentro de la carpeta Autodoc:
+
+* Los archivos deberán ser puestos en la carpeta **app** para que el servidor web los tome en cuenta
+* Los archivos de configuración de la base de datos se encuentran en la carpeta **mysql**
+
+
+Una vez los script sean ejecutados por primera vez, ya no es necesario ejecutarlo cuando se requiera utilizar el contenedor para volver a usar el mismo contenedor usamos el siguiente comando:
+
+
+```
+sudo docker start autodoc
+```
+Esperamos un momento y ya tendremos nuevamente nuestro contenedor corriendo.
 
 ## Construido con
 
@@ -100,5 +103,4 @@ Este script nos pedirá la información necesaria para la configuración de nues
 
 ## Expresiones de Gratitud 🎁
 
-
-Quiero agradecer a todas aquellas personas que contribuyeron indirectamente con el proyecto, a las personas que conformar al equipo de trabajo del laboratorio del Laboratorio de Iluminación Artificial, en especial: a la Doctora Nivia Iracemi Escalante Garcia por el apoyo moral, la constante revisión del protocolo y compartir su conocimiento, al profesor Eduardo Flores Gallegos por iniciarme en el mundo Linux , a las compañeras de séptimo semestre de TIC's, Jaqueline Garcia Luevano y Yatziri Amparo Esquivel Cruz por el apoyo moral, la resolución de dudas en algunos aspectos técnicos, la convivencia y sobre todo recordarme lo importante de las cosas simples de la vida. ¡Es para mi un honor trabajar con todos ustede
+Quiero agradecer a todas aquellas personas que contribuyeron indirectamente con el proyecto, a las personas que conformar al equipo de trabajo del Laboratorio de Iluminación Artificial, en especial: a la Doctora Nivia Iracemi Escalante Garcia por el apoyo moral, la constante revisión del protocolo y compartir su conocimiento, al profesor Eduardo Flores Gallegos por iniciarme en el mundo Linux y sus conocimientos técnicos, a las compañeras de séptimo semestre de TIC's, Jaqueline Garcia Luevano y Yatziri Amparo Esquivel Cruz por el apoyo moral, la resolución de dudas en algunos aspectos técnicos, la convivencia y sobre todo recordarme lo importante que son las cosas simples de la vida. ¡Es para mi un honor trabajar con todos ustedes!
