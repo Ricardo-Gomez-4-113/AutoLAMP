@@ -34,7 +34,7 @@ Una vez nos que salga algo como lo siguiente:
 
 ![Screenshot](screenshot.png)
 
-Ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que hayamos seleccionado en la web):
+Abrimos otra terminal nos dirigimos como en el paso anterior al directorio **AutoDoc** y ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 2 a 4 variables**):
 
 ```
 sudo ./script2
@@ -62,7 +62,8 @@ Una vez nos que salga algo como lo siguiente:
 
 ![Screenshot](screenshot.png)
 
-Ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que necesitemos, por el momento solo se puede de 2 a 4 variables):
+Abrimos otra terminal nos dirigimos como en el paso anterior al directorio **AutoDoc** y ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 2 a 4 variables**):
+
 
 ```
 sudo ./script2
@@ -71,13 +72,13 @@ Este script nos pedirá la información necesaria para la configuración de nues
 
 ### Aclaraciones 
 
-Es necesario saber que dentro de la carpeta Autodoc:
+Es necesario saber que dentro del directorio Autodoc:
 
-* Los archivos deberán ser puestos en la carpeta **app** para que el servidor web los tome en cuenta
-* Los archivos de configuración de la base de datos se encuentran en la carpeta **mysql**
+* Los archivos deberán ser puestos en el directorio **app** para que el servidor web los tome en cuenta
+* Los archivos de configuración de la base de datos se encuentran en el directorio **mysql**
 
 
-Una vez los script sean ejecutados por primera vez, ya no es necesario ejecutarlo cuando se requiera utilizar el contenedor para volver a usar el mismo contenedor usamos el siguiente comando:
+Una vez los script sean ejecutados la primera vez, ya no sera necesario ejecutarlo cada vez que se requiera utilizar el contenedor, para volver a usar el mismo contenedor usamos el siguiente comando:
 
 
 ```
