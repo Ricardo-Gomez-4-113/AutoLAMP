@@ -72,7 +72,7 @@ Este script nos pedirá la información necesaria para la configuración de nues
 
 ### Aclaraciones 
 
-Es necesario saber que dentro del directorio Autodoc:
+Es necesario saber que dentro del directorio AutoDoc:
 
 * Los archivos deberán ser puestos en el directorio **app** para que el servidor web los tome en cuenta
 * Los archivos de configuración de la base de datos se encuentran en el directorio **mysql**
