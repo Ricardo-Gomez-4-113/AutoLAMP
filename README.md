@@ -86,6 +86,12 @@ sudo docker start autodoc
 ```
 Esperamos un momento y ya tendremos nuevamente nuestro contenedor corriendo.
 
+Para detenerlo:
+
+```
+sudo docker stop autodoc
+```
+
 ## Construido con
 
 * [Docker](https://docs.docker.com/get-started/overview/) - Tecnologia de virtualizacion utilizada
