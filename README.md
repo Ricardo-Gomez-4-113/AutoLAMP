@@ -34,7 +34,7 @@ Una vez nos que salga algo como lo siguiente:
 
 ![Screenshot](screenshot.png)
 
-Abrimos otra terminal, nos dirigimos como en el paso anterior al directorio **AutoDoc** y ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 2 a 4 variables**):
+Abrimos otra terminal, nos dirigimos como en el paso anterior al directorio **AutoDoc** y ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 1 a 4 variables**):
 
 ```
 sudo ./script2
@@ -62,7 +62,7 @@ Una vez nos que salga algo como lo siguiente:
 
 ![Screenshot](screenshot.png)
 
-Abrimos otra terminal, nos dirigimos como en el paso anterior al directorio **AutoDoc** y ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 2 a 4 variables**):
+Abrimos otra terminal, nos dirigimos como en el paso anterior al directorio **AutoDoc** y ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 1 a 4 variables**):
 
 
 ```
