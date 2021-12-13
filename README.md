@@ -76,6 +76,7 @@ Es necesario saber que dentro del directorio AutoDoc:
 
 * Los archivos deberán ser puestos en el directorio **app** para que el servidor web los tome en cuenta
 * Los archivos de configuración de la base de datos se encuentran en el directorio **mysql**
+* El archivo **user.sh** tiene la funcion de crear usuarios para la base de datos sin tener que crear una.  
 
 
 Una vez los script sean ejecutados la primera vez, ya no sera necesario ejecutarlo cada vez que se requiera utilizar el contenedor, para volver a usar el mismo contenedor usamos el siguiente comando:
