@@ -1,10 +1,10 @@
-# AutoDoc
+# AutoLAMP
 
-Scripts que automatiza la creación de contenedores Docker, para la implementación de redes de sensores en el LIA 
+Conjunto de scripts que automatizan la creación de servidor LAMP
 
 ## Comenzando
 
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas
 
 ### Pre-requisitos
 
@@ -101,8 +101,8 @@ sudo docker stop autodoc
 
 ## Autores
 
-* **Ricardo Gomez** - *Creación del script* - [Ricardo-Gomez-4-113](https://github.com/Ricardo-Gomez-4-113)
-* **Tristán Huerta** - *Sistema Web* - [trinat00](https://github.com/trinat00)
+* **Ricardo Gomez** - *Creación de los scripts* - [Ricardo-Gomez-4-113](https://github.com/Ricardo-Gomez-4-113)
+* **Tristán Huerta** - *Sistema Web* - [trinat00](https://github.com/trinat00/PW-Scripts-LIA)
 
 ## Créditos
 
