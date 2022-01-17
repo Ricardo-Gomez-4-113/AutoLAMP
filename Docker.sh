@@ -1,4 +1,9 @@
 #!/bin/bash
+sudo apt install xdotool -y
+echo "Instalando xdotool"
+sleep 5
+xdotool key alt+F10
+sleep 3
 echo " ██▀███   ██▓ ▄████▄   ▄▄▄       ██▀███  ▓█████▄  ▒█████       ▄████  ▒█████   ███▄ ▄███▓▓█████ ▒███████▒
 ▓██ ▒ ██▒▓██▒▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒▒██▀ ██▌▒██▒  ██▒    ██▒ ▀█▒▒██▒  ██▒▓██▒▀█▀ ██▒▓█   ▀ ▒ ▒ ▒ ▄▀░
 ▓██ ░▄█ ▒▒██▒▒▓█    ▄ ▒██  ▀█▄  ▓██ ░▄█ ▒░██   █▌▒██░  ██▒   ▒██░▄▄▄░▒██░  ██▒▓██    ▓██░▒███   ░ ▒ ▄▀▒░ 
@@ -9,6 +14,14 @@ echo " ██▀███   ██▓ ▄████▄   ▄▄▄       █�
   ░░   ░  ▒ ░░          ░   ▒     ░░   ░  ░ ░  ░ ░ ░ ░ ▒     ░ ░   ░ ░ ░ ░ ▒  ░      ░      ░   ░ ░ ░ ░ ░
    ░      ░  ░ ░            ░  ░   ░        ░        ░ ░           ░     ░ ░         ░      ░  ░  ░ ░    
              ░                            ░                                                     ░       "
+
+echo "Creado carpetas necesarias"
+mkdir AutoLAMP
+sleep 5
+echo "Ubicado la carpeta de trabajo"
+sleep 5
+cd AutoLAMP
+sleep 5
 echo "Checando si los paquetes necesarios estan instalados..."
 dpkg -s docker-ce docker-ce-cli containerd.io curl gnupg lsb-release &> /dev/null
 if [ $? -ne 0 ]
@@ -49,7 +62,7 @@ if [ $? -ne 0 ]
             sudo docker pull mattrayner/lamp
             echo "Configurando imagen"
             sleep 5
-            sudo docker run -i -t --name autodoc -p "80:80" -p "3306:3306" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest
+            sudo docker run -i -t --name autolamp -p "80:80" -p "3306:3306" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest
     fi
 
 

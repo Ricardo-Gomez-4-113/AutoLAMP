@@ -9,7 +9,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 ### Pre-requisitos
 
 * Distribución GNU/Linux basada en Debian (Linux Mint, Ubuntu, entre otros)
-* Acceso a internet
+* Acceso a internet mediante WIFI o Ethernet ( No usar movil como punto de acceso)
 * Conocimientos básicos de uso de Terminal
 
 ### Recomendaciones
@@ -17,13 +17,9 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 ### Modo de uso para la web 🔧
 
-Si descargamos el script de la web, solo debemos descomprimir el zip y mover la carpeta generada al directorio HOME de nuestro usuario y seguir los siguientes pasos:
+Si descargamos el script de la web, solo debemos seleccionar el archivo a descragar y movr dicho archivo al directorio HOME de nuestro usuario y seguir los siguientes pasos:
 
-Abrimos una terminal y nos ubicamos en dicho directorio:
-
-```
-cd AutoDoc
-```
+Abrimos una terminal y nos ubicamos en dicho directorio HOME:
 
 Ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos necesarios:
 
@@ -34,24 +30,19 @@ Una vez nos que salga algo como lo siguiente:
 
 ![Screenshot](screenshot.png)
 
-Abrimos otra terminal, nos dirigimos como en el paso anterior al directorio **AutoDoc** y ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que seleccionamos en la web, **por el momento solo se puede de 1 a 4 variables**):
-
-```
-sudo ./script2
-```
-Este script nos pedirá la información necesaria para la configuración de nuestra base de datos.
+Volvemos a la web, seleccionamos el script con e numero de variables de nuestro interes (Este se descargara automaticamente cuando lo selecionemos), una vez descargado procedemos a dirigirnos a la carpeta de descargas mediante la termial:
 
 ### Modo de uso para el repositorio 🔧
 
 Para hacer uso de los scripts primero abrimos una terminal y clonamos el repositorio:
 
 ```
-git clone https://github.com/Ricardo-Gomez-4-113/AutoDoc.git
+git clone https://github.com/Ricardo-Gomez-4-113/AutoLAMP.git
 ```
 Una vez clonado el repositorio, nos desplazamos al directorio de trabajo
 
 ```
-cd AutoDoc
+cd AutoLAMP
 ```
 Dentro del directorio ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos requeridos:
 
@@ -72,7 +63,7 @@ Este script nos pedirá la información necesaria para la configuración de nues
 
 ### Aclaraciones 
 
-Es necesario saber que dentro del directorio AutoDoc:
+Es necesario saber que dentro del directorio AutoLAMP:
 
 * Los archivos deberán ser puestos en el directorio **app** para que el servidor web los tome en cuenta
 * Los archivos de configuración de la base de datos se encuentran en el directorio **mysql**
@@ -83,14 +74,14 @@ Una vez los script sean ejecutados la primera vez, ya no sera necesario ejecutar
 
 
 ```
-sudo docker start autodoc
+sudo docker start autolamp
 ```
 Esperamos un momento y ya tendremos nuevamente nuestro contenedor corriendo.
 
 Para detenerlo:
 
 ```
-sudo docker stop autodoc
+sudo docker stop autolamp
 ```
 
 ## Construido con
