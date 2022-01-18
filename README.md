@@ -17,7 +17,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 ### Modo de uso para la web 🔧
 
-Si descargamos el script de la web, solo debemos seleccionar el archivo a descragar y movr dicho archivo al directorio HOME de nuestro usuario y seguir los siguientes pasos:
+Si descargamos el script de la web, solo debemos seleccionar el archivo a descargar (este se descargara automáticamente cuando lo seleccionemos) y mover dicho archivo al directorio HOME de nuestro usuario y seguir los siguientes pasos:
 
 Abrimos una terminal y nos ubicamos en dicho directorio HOME:
 
@@ -30,7 +30,20 @@ Una vez nos que salga algo como lo siguiente:
 
 ![Screenshot](screenshot.png)
 
-Volvemos a la web, seleccionamos el script con e numero de variables de nuestro interes (Este se descargara automaticamente cuando lo selecionemos), una vez descargado procedemos a dirigirnos a la carpeta de descargas mediante la termial:
+Volvemos a la web, seleccionamos el script con el número de variables de nuestro interés (este se descargará automáticamente cuando lo seleccionemos), una vez descargado procedemos a dirigirnos al directorio de descargas mediante la terminal ejecutando el siguiente comando:
+
+```
+cd Descargas
+```
+(Sustituir **Descargas** por el directorio donde tengamos el script previamente descargado)
+
+Una vez ahi solo tecleamos el siguiente comando, el cual ejecutara el script que nos ayudara a configurar la base de datos:
+```
+sudo ./script2
+```
+(sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 1 a 4 variables**):
+
+
 
 ### Modo de uso para el repositorio 🔧
 
@@ -53,8 +66,7 @@ Una vez nos que salga algo como lo siguiente:
 
 ![Screenshot](screenshot.png)
 
-Abrimos otra terminal, nos dirigimos como en el paso anterior al directorio **AutoDoc** y ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 1 a 4 variables**):
-
+Abrimos otra terminal, nos dirigimos como en el paso anterior al directorio **AutoLAMP** y ejecutamos el script encargado de configurar la base de datos (sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 1 a 4 variables**):
 
 ```
 sudo ./script2
