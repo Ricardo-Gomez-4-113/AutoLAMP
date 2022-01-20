@@ -19,9 +19,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 Si descargamos el script de la web, solo debemos seleccionar el archivo a descargar (este se descargara automáticamente cuando lo seleccionemos) y mover dicho archivo al directorio HOME de nuestro usuario y seguir los siguientes pasos:
 
-Abrimos una terminal y nos ubicamos en dicho directorio HOME:
-
-Ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos necesarios:
+Abrimos una terminal, nos ubicamos en dicho directorio HOME y ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos necesarios con el siguiente comando:
 
 ```
 sudo ./Docker.sh
@@ -42,8 +40,6 @@ Una vez ahi solo tecleamos el siguiente comando, el cual ejecutara el script que
 sudo ./script2
 ```
 (sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 1 a 4 variables**):
-
-
 
 ### Modo de uso para el repositorio 🔧
 
