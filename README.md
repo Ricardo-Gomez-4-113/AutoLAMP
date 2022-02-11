@@ -1,10 +1,10 @@
 # AutoLAMP
 
-Conjunto de scripts que automatizan la creación de servidor LAMP
+Conjunto de scripts que automatizan la creación de servidor LAMP haciendo uso de Docker
 
 ## Comenzando
 
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina
 
 ### Pre-requisitos
 
