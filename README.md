@@ -9,7 +9,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 ### Pre-requisitos
 
 * Distribución GNU/Linux basada en Debian (Linux Mint, Ubuntu, entre otros)
-* Acceso a internet mediante WIFI o Ethernet ( No usar movil como punto de acceso)
+* Acceso a internet mediante WIFI o Ethernet (No usar movil como punto de acceso)
 * Conocimientos básicos de uso de Terminal
 
 ### Recomendaciones
