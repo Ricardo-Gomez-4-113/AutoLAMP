@@ -39,7 +39,7 @@ Una vez ahi solo tecleamos el siguiente comando, el cual ejecutara el script que
 ```
 sudo ./script2
 ```
-(sustituimos el "2" por el número de variables que necesitemos, **por el momento solo se puede de 1 a 4 variables**):
+(sustituimos el "2" por el número de variables que seleccionamos, **por el momento solo se puede de 1 a 4 variables**):
 
 ### Modo de uso para el repositorio 🔧
 
