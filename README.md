@@ -13,7 +13,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 * Conocimientos básicos de uso de Terminal
 
 ### Recomendaciones
-* Usar la terminal en pantalla completa para visualizar de mejor manera el contenido (La terminal se pondrá en pantalla completa automáticamente)
+* Usar la terminal en pantalla completa para visualizar de mejor manera el contenido (La terminal se pondrá en pantalla completa automáticamente, de lo contrario hacerlo manualmente)
 
 ### Modo de uso para la web 🔧
 
