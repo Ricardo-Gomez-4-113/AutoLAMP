@@ -49,7 +49,7 @@ if [ $? -ne 0 ]
             sudo docker pull mattrayner/lamp
             echo "Configurando imagen"
             sleep 5
-            sudo docker run -i -t --name autodoc -p "80:80" -p "3306:3306" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest
+            sudo docker run -i -t --name autolamp -p "80:80" -p "3306:3306" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest
         else
             echo    "Los paquetes estan instalados..."
             sleep 5
