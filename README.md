@@ -17,7 +17,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 ### Modo de uso para la web 🔧
 
-Seleccionamos el archivo **Docker.sh** (este se descargará automáticamente cuando lo seleccionemos), movemos dicho archivo al directorio HOME de nuestro usuario y seguimos los siguientes pasos:
+Seleccionamos el archivo **Docker.sh** mediante el menú desplegable (este se descargará automáticamente cuando lo seleccionemos), movemos dicho archivo al directorio HOME de nuestro usuario y seguimos los siguientes pasos:
 
 Abrimos una terminal, nos ubicamos en dicho directorio y ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos requeridos con el siguiente comando:
 
