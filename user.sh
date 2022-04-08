@@ -3,8 +3,8 @@ echo "Introduzca en nombre para el usuario"
 read username
 echo "Introduzca la contraseña para el usuario"
 read userpass
-sudo docker exec autodoc  mysql -uroot -e "CREATE USER '$username'@'%' IDENTIFIED BY '$userpass';"
-sudo docker exec autodoc  mysql -uroot -e "GRANT ALL PRIVILEGES ON *.* TO '$username'@'localhost';"
+sudo docker exec autolamp  mysql -uroot -e "CREATE USER '$username'@'%' IDENTIFIED BY '$userpass';"
+sudo docker exec autolamp  mysql -uroot -e "GRANT ALL PRIVILEGES ON *.* TO '$username'@'localhost';"
 echo "############################################"
 echo "El nombre para el usuario es: $username"
 echo "La contraseña para el usuario es: $userpass"
