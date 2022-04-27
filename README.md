@@ -19,7 +19,11 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 Seleccionamos el archivo **Docker.sh** mediante el menú desplegable (este se descargará automáticamente cuando lo seleccionemos), movemos dicho archivo al directorio HOME de nuestro usuario y seguimos los siguientes pasos:
 
-Abrimos una terminal, nos ubicamos en dicho directorio y ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos requeridos con el siguiente comando:
+Abrimos una terminal, nos ubicamos en dicho directorio y le damos permisos para que pueda trabajar:
+```
+sudo chmod Docker.sh
+```
+Ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos requeridos con el siguiente comando:
 
 ```
 sudo ./Docker.sh
@@ -39,7 +43,7 @@ Una vez ahi solo tecleamos el siguiente comando, el cual ejecutara el script que
 ```
 sudo ./script2
 ```
-(sustituimos el "2" por el número de variables que seleccionamos, **por el momento solo se puede de 1 a 4 variables**):
+(sustituimos el "2" por el número de variables que seleccionamos, **por el momento solo se puede de 1 a 4 variables**)
 
 ### Modo de uso para el repositorio 🔧
 
