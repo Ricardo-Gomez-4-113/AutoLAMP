@@ -21,7 +21,7 @@ Seleccionamos el archivo **Docker.sh** mediante el menú desplegable (este se de
 
 Abrimos una terminal, nos ubicamos en dicho directorio y le damos permisos para que pueda trabajar:
 ```
-sudo chmod Docker.sh
+sudo chmod 777 Docker.sh
 ```
 Ejecutamos el script que instalara los paquetes necesarios y configura la imagen con los aditamentos requeridos con el siguiente comando:
 
