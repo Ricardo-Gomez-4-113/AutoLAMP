@@ -16,7 +16,7 @@ ${NC}"
 echo "Creado carpetas necesarias"
 mkdir AutoLAMP
 sleep 5
-echo "Ubicado la carpeta de trabajo"
+echo "Ubicando la carpeta de trabajo"
 sleep 5
 cd AutoLAMP
 sleep 5
@@ -42,7 +42,7 @@ if [ $? -ne 0 ]
             sleep 5
             sudo apt update
             sudo apt-get install docker-ce docker-ce-cli  containerd.io -y
-            echo "Todos los paqutes han sido instalados correctamente..."
+            echo "Todos los paquetes han sido instalados correctamente..."
             sleep 5
             echo "Obteniendo imagen"
             sleep 5 
@@ -55,10 +55,10 @@ if [ $? -ne 0 ]
             sleep 5
             echo    "Configurando..."
             sleep 5
-            echo "Obteniendo imagen"
+            echo "Obteniendo imagen..."
             sleep 5
             sudo docker pull mattrayner/lamp
-            echo "Configurando imagen"
+            echo "Configurando imagen..."
             sleep 5
             sudo docker run -i -t --name autolamp -p "80:80" -p "3306:3306" -v ${PWD}/app:/app -v ${PWD}/mysql:/var/lib/mysql mattrayner/lamp:latest
     fi
